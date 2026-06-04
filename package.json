@@ -1,0 +1,18 @@
+{
+  "name": "roblox-discord-bot",
+  "version": "1.0.0",
+  "description": "Discord bot για Roblox HD Admin logging & commands",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js",
+    "dev": "nodemon bot.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.14.1",
+    "dotenv": "^17.4.2",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
